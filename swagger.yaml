@@ -356,7 +356,7 @@ definitions:
   type: "object"
   proporties:
     orgs:
-      type:array"
+      type: "array"
       items:
         type: "string"
   
