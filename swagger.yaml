@@ -60,7 +60,6 @@ paths:
       produces:
       - "application/json"
       parameters:
-      parameters:
       - name: "contract_id"
         in: "path"
         description: "ID of contracted to be accepted"
