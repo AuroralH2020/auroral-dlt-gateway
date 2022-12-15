@@ -152,6 +152,8 @@ paths:
       responses:
         200:
           description: "Status OK"
+          schema:
+            $ref: "#/definitions/Contract"
         401:
           description: "Unauthorized"
         405:
@@ -175,6 +177,8 @@ paths:
       responses:
         200:
           description: "Status OK"
+          schema:
+            $ref: "#/definitions/Contract"
         401:
           description: "Unauthorized"
         405:
@@ -198,6 +202,8 @@ paths:
       responses:
         200:
           description: "Status OK"
+          schema:
+            $ref: "#/definitions/ContractIDs"
         401:
           description: "Unauthorized"
         405:
@@ -344,7 +350,11 @@ definitions:
       contract_id:
         type: "string"
       object_id:
-        type: "string"        
+        type: "string"      
+  ContractIDs:
+  type: "array"
+  format: "string"
+    
 externalDocs:
   description: "Find out more about Swagger"
   url: "http://swagger.io"
