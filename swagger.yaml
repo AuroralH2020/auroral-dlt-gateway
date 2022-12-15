@@ -235,8 +235,6 @@ paths:
           description: "Invalid input"
         404:
           description: "Contract not found"  
-        404:
-          description: "Item not found"  
       security:
       - contract_auth:
         - "write:contract"
@@ -299,8 +297,6 @@ paths:
           description: "Invalid input"
         404:
           description: "Contract not found"  
-        404:
-          description: "Item not found"  
       security:
       - contract_auth:
         - "write:contract"
