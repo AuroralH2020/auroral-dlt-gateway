@@ -353,9 +353,13 @@ definitions:
       object_id:
         type: "string"      
   ContractIDs:
-  type: "array"
-  items:
-    type: "string"
+  type: "object"
+  proporties:
+    orgs:
+      type:array"
+      items:
+        type: "string"
+  
     
 externalDocs:
   description: "Find out more about Swagger"
