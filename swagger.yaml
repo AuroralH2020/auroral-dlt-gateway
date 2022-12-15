@@ -22,7 +22,7 @@ paths:
   /contract/propose:
     post:
       tags:
-      - "pet"
+      - "contract"
       summary: "Org1 proposes a Contract to Org2"
       description: ""
       operationId: "proposeContract"
@@ -636,9 +636,9 @@ definitions:
     type: "object"
     properties:
       enabled:
-        type: "boolen"
+        type: "boolean"
       write:
-        type: "boolen"
+        type: "boolean"
       object_id:
         type: "string"
       org_id:
