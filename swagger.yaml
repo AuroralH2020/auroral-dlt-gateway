@@ -328,7 +328,8 @@ definitions:
         - "community"
       orgs:
         type: "array"
-        format: "string"
+        items:
+          type: "string"
       items:
         $ref: "#/definitions/Item"
   Item:
@@ -353,7 +354,8 @@ definitions:
         type: "string"      
   ContractIDs:
   type: "array"
-  format: "string"
+  items:
+    type: "string"
     
 externalDocs:
   description: "Find out more about Swagger"
